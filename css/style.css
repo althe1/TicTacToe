@@ -1,0 +1,53 @@
+body {
+	background: linear-gradient(rgba(0, 51, 0,0.8),rgba(0, 51, 0,0.8)), url(../images/felt.png);
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.gameboard {
+	width: 650px;
+	height: 650px;
+	background-color: brown;
+	margin: 0 auto;
+	display: inline;
+}
+
+.square {
+	width: 210px;
+	height: 210px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	border: solid 2px black;
+	line-height: 200px;
+}
+
+.xpiece {
+	width: inherit;
+	height: inherit;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.opiece {
+	width: inherit;
+	height: inherit;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.centerboth {
+	vertical-align: middle;
+	text-align: center;
+}

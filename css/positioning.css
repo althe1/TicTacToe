@@ -1,0 +1,47 @@
+body {
+      margin: 0;
+      font: normal 12px/18px 'Helvetica', Arial, sans-serif;
+      background: #44accf;
+}
+#container { 
+    width: 450px;
+    margin: 0 auto;
+}
+.center {
+  margin: 0 auto;
+
+}
+#example {
+  width: 425px;
+}
+
+#div-before {
+  background-color: #88d;
+  color: #000;
+  padding-bottom: 0;
+}
+#div-1 {
+  width: 425px;
+  background-color: #000;
+  color: #fff;
+}
+#div-1a {
+  background-color: red;
+  width: 200px;
+  position: relative;
+  float:left;
+
+}
+#div-1b {
+  background-color: green;
+  width: 200px;
+  float:right;
+}
+#div-1c {
+  background-color: teal;
+  width: 400px;
+  clear:both;
+}
+#div-after {
+  background-color: yellow;
+}
